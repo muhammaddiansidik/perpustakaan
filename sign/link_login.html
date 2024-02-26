@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <title>Get started</title>
+  </head>
+  <style>
+    body {
+      background-image: url("../assets/6761097.jpg");
+      background-size: cover;
+    }
+    .container {
+      margin: 20% auto;
+    }
+
+    .container h1 {
+      border-bottom: 1px solid;
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 7%;
+    }
+
+    .konten {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .konten a img {
+      width: 70%;
+    }
+
+    @media only screen and (max-width: 450px) {
+      .konten a img {
+        width: 70%;
+      }
+
+      .konten {
+        flex-wrap: wrap;
+        margin: 0 59px 0 35%;
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="konten">
+        <a href="admin/sign_in.php"
+          ><img src="../assets/admin.png" alt="" srcset=""
+        /></a>
+        <a href="petugas/sign_in.php"
+          ><img src="../assets/petugas.png" alt="" srcset=""
+        /></a>
+        <a href="member/sign_in.php"
+          ><img src="../assets/siswa.png" alt="" srcset=""
+        /></a>
+        <hr />
+        <a href="../index.php"
+          ><img src="../assets/kembali.png" alt="" srcset=""
+        /></a>
+      </div>
+    </div>
+
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
